@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Petra Server</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+    <a href="#" class="logo">Petra Server</a>
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="https://youtube.com/">About</a></li>
+        <li><a href="https://wa.me/qr/SJRINOQBVZD2O1">Buy Rank</a></li>
+        <li><a href="https://discord.com/invite/2QTgpNeSYr">Discord</a></li>
+    </ul>
+   </header>
+   <section>
+    <img src="stars.png" id="stars">
+    <img src="moon.png" id="moon">
+    <img src="mountains_behind.png" id="mountains_behind">
+    <h2 id="text"></h2>
+    <a href="https://linktr.ee/VlinzOP" id="btn">Join</a>
+    <img src="mountains_front.png" id="mountains_front">
+   </section>
+   <div class="sec">
+    <h2>PETRA SERVER</h2>
+    <P>Fiture Server Minecraft Petra Server
+        -Lobby
+        -Rank
+        -Shop
+        -Pvp
+        -quest
+        -plot rumah
+        dll
+    </P>
+    <div>
+
+        <script>
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px'
+                moon.style.top = value * 1.05 + 'px'
+                text.marginRight = value * 4 + 'px'
+            })
+        </script>
+</body>
+</html>
